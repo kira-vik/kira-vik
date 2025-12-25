@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on building backend systems and data-driven solutions at Jaguar Petroleum Limited, including Java Spring Boot APIs, ERPNext custom modules, and Python-based data analytics and reporting workflows.<br>🤝 I’m looking for help with scaling ETL pipelines, improving data pipeline performance, and best practices around cloud-native analytics and distributed data systems.<br>🌱 I’m currently learning advanced ETL and data engineering concepts, cloud analytics platforms, Kafka-style data streaming, and improving my Power BI and SQL performance tuning skills.<br>💬 Ask me about python for data analytics, ETL pipeline design, ERPNext customization, backend API development with Spring Boot, Power BI reporting, or cleaning and transforming messy datasets.
+🔭 I’m currently working on building backend systems and data-driven solutions at Jaguar Petroleum Limited, including Java Spring Boot APIs, ERPNext custom modules, and Python-based data analytics and reporting workflows.<br><br>🤝 I’m looking for help with scaling ETL pipelines, improving data pipeline performance, and best practices around cloud-native analytics and distributed data systems.<br><br>🌱 I’m currently learning advanced ETL and data engineering concepts, cloud analytics platforms, Kafka-style data streaming, and improving my Power BI and SQL performance tuning skills.<br><br>💬 Ask me about python for data analytics, ETL pipeline design, ERPNext customization, backend API development with Spring Boot, Power BI reporting, or cleaning and transforming messy datasets.
 
 
 ## 🌐 Socials:
@@ -13,6 +13,6 @@
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=kira-vik&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
 
 ### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=radical)
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
