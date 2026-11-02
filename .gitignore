@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+# keep your original photo out of the repo; only the prepped/generated art is needed
+source-photo.*
+source-prepped.png
