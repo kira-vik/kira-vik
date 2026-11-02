@@ -9,6 +9,7 @@ name: Update profile art
     paths:
       - "scripts/fetch_contributions.py"
       - "scripts/render_heatmap_svg.py"
+      - "scripts/render_monthly_svg.py"
       - ".github/workflows/update-profile-art.yml"
 
 permissions:
@@ -20,14 +21,15 @@ jobs:
     env:
       GH_USERNAME: kira-vik
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
       - run: pip install -r scripts/requirements.txt
       - run: python scripts/fetch_contributions.py
       - run: python scripts/render_heatmap_svg.py
-      - uses: stefanzweifel/git-auto-commit-action@v5
+      - run: python scripts/render_monthly_svg.py
+      - uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "chore: refresh contribution graph [skip ci]"
-          file_pattern: "data/contributions.json contrib-heatmap.svg"
+          file_pattern: "data/contributions.json contrib-heatmap.svg monthly-commits.svg"
